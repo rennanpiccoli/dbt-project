@@ -1,0 +1,30 @@
+version: 2
+
+sources:
+  - name: datalake
+    database: rhr-prod
+    tables:
+      - name: db_bairro_raw
+      - name: db_cargo_raw
+      - name: db_categoria_prod_raw
+      - name: db_cidade_raw
+      - name: db_cli_fisica_raw
+      - name: db_cli_juridica_raw
+      - name: db_cliente_raw
+      - name: db_depto_raw
+      - name: db_end_cli_raw
+      - name: db_end_func_raw
+      - name: db_end_loja_raw
+      - name: db_estado_raw
+      - name: db_faturamento_produto_raw
+      - name: db_forma_pagamento_raw
+      - name: db_funcionario_raw
+      - name: db_item_pedido_raw
+      - name: db_logradouro_raw
+      - name: db_loja_raw
+      - name: db_nome_pj_raw
+      - name: db_pedido_raw
+      - name: db_produto_imagem_raw
+      - name: db_produto_loja_raw
+      - name: db_produto_raw
+      - name: db_sub_categoria_prod_raw
