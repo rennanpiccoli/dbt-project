@@ -10,3 +10,9 @@ base as (
 )
 
 select * from base
+
+
+--ids
+--cod
+--dsc
+--dt and dtt
